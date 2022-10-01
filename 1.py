@@ -1,8 +1,4 @@
-name = 'Maxim'
-surname = 'Golubev'
-birthDate = 1999
+name,surname,birthDate = str(input('Введите имя ')),str(input('Введите фамилию ')),int(input('Введите год рождения '))
 print(name,surname,birthDate)
-transitVariable = name
-name = surname
-surname = transitVariable
+name,surname = surname,name
 print(name,surname,birthDate+60)
