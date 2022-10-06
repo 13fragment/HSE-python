@@ -13,5 +13,5 @@ elif kolvoVremeni==kolvoExp==0:
 if kolvoExp > 0 & kolvoVremeni >=0:
     print('Понадобится времени что осмотреть все экспонаты в днях = ',kolvoExp / uslovie)
 if kolvoVremeni > 0 & kolvoExp>=0:
-    print('Кол-во экспонатов, осмотренных по заданому времени равно = ',kolvoVremeni*365*24*uslovie )
+    print('Кол-во экспонатов, осмотренных по заданому времени равно = ',kolvoVremeni*365*uslovie )
 
