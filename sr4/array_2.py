@@ -8,6 +8,8 @@ for k in range(n):
     for f in range(m):
         if a[k]==b[f]:
             print(a[k])
+        else:
+            print('Нет совподающих элементов')
 
     
 
