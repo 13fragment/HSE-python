@@ -20,3 +20,17 @@
 #     if i%2==0:
 #         a[i],a[i+1],=a[i+1],a[i]
 # print(a)
+
+# a,b,c=float(input()),float(input()),float(input())
+# if c**2==a**2+b**2:
+#     def square (a,b):
+#         return a*b/2
+#     def perimetr(a,b,c):
+#         return a+b+c
+# print(square(a,b))
+# print(perimetr(a,b,c))
+
+
+
+
+
