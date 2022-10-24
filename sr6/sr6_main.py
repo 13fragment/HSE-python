@@ -4,6 +4,8 @@ def vvod():
     a,b = [0]*n,[0]*m
     return a,b,g
 vvod()
+if (n > 0 or m>0):
+    print('Ошибка')
 def prints():
     print('Нет совподающих элементов')
 for i in range(n):
