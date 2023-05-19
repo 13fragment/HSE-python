@@ -8,3 +8,4 @@ for i in range(10 ** (n - 1), 10 ** n, 1):
         numb //= 10
     if summa == n:
         print(i)
+
